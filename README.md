@@ -45,6 +45,8 @@ Após esses passos a imagem ficará visivel na extensão do docker, onde pode se
 
 Para estabelecer uma conexão é necessário ir até a extensão Database Client e clicar em Create Connection.
 
+Após a abertura da tela de configuração basta preencher os campos necessários para  a conexão funcionar, como o usuário, a senha e a porta.
 
+5º - 
 
 
