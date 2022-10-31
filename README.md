@@ -1,8 +1,8 @@
 # Introdução ao Docker com o Manual do Dev
 
-Este repositório tem como objetivo estudar **Docker** com o video do canal do **Youtube** **Manual do Dev**
+Este repositório tem como objetivo estudar **Docker** com o video do canal do **Youtube**: **[Manual do Dev](https://exemplo.com/)**.
 
-Video: <https://youtu.be/01MR38eDXz8>
+**Video:** <https://youtu.be/01MR38eDXz8>
 
 
 ## O que foi feito:
@@ -17,7 +17,7 @@ Após a instalação foi solicitada a atualização do *Kernel do Linux*.
 
 A atualização foi realizada utilizando o link indicado pelo *Docker*, seguindo a partir do quarto passo da documentação em questão até o passo número 5.
 
-Link para a atualização: <https://learn.microsoft.com/pt-br/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package>
+**Link para a atualização:** <https://learn.microsoft.com/pt-br/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package>
 
 >Ocorreu um erro na inicialização do Docker devido a falta de memória em disco do computador, sendo assim, foi liberado espaço e o *Docker* foi inicializado corretamente.
 
