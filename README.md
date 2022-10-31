@@ -5,11 +5,12 @@ Este repositório tem como objetivo estudar **Docker** com o video do canal do *
 Video: <https://youtu.be/01MR38eDXz8>
 
 
-### *O que foi feito:*
+## O que foi feito:
 
-## 1º - Instalação do Docker Desktop
+### 1º - Instalação do Docker Desktop
 
 Link: <https://www.docker.com/>
+</br>
 Link direto Windows: <https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=module>
 
 Após a instalação foi solicitada a atualização do *Kernel do Linux*.
@@ -20,12 +21,13 @@ Link para a atualização: <https://learn.microsoft.com/pt-br/windows/wsl/instal
 
 >Ocorreu um erro na inicialização do Docker devido a falta de memória em disco do computador, sendo assim, foi liberado espaço e o *Docker* foi inicializado corretamente.
 
-## 2º - Instalação das extensões utilizadas neste aprendizado
+### 2º - Instalação das extensões utilizadas neste aprendizado
 
-Database Client - Para manipular a conexão com o banco de dados
-Docker - Para manipular as instâncias do Docker
+**Database Client** - Para manipular a conexão com o banco de dados.
+</br>
+**Docker** - Para manipular as instâncias do Docker.
 
-## 3º - Download da imagem do MySql e criação do primeiro container
+### 3º - Download da imagem do MySql e criação do primeiro container
 
 Comando para baixar a imagem e criar o container:
 
@@ -44,7 +46,7 @@ Onde:
 
 Após esses passos a imagem ficará visivel na extensão do docker, onde pode ser parada, iniciada, removida, etc.
 
-## 4º - Conexão ao servidor através do Database Client
+### 4º - Conexão ao servidor através do Database Client
 
 Para estabelecer uma conexão é necessário ir até a extensão *Database Client* e clicar em *Create Connection*.
 
@@ -52,12 +54,12 @@ Após a abertura da tela de configuração basta preencher os campos necessário
 
 Para conectar é necessário clicar em *Connect*.
 
-## 5º - Criando uma base de dados
+### 5º - Criando uma base de dados
 
 Para criar uma base de dados basta clicar em *New Database* no explorer do *Database Client* intitulado com o ip da conexão.
 Um código *SQL* será gerado automaticamente para a criação da base, sendo necessário apenas preencher o nome da base e clicar em *Executar*.
 
-## 6º - Criando uma imagem de um projeto
+### 6º - Criando uma imagem de um projeto
 
 A criação de uma imagem de um projeto é utilizada para transportar um ambiente de desenvolvimento de uma aplicação para outra máquina, para que outros desenvolvedores possam contribuir com o mesmo projeto, sem a necessidade de uma reconfiguração da sua própria máquina para que ela aceite o novo app.
 
@@ -95,7 +97,7 @@ Para construir a imagem a partir deste arquivo criado é necessário executar os
 docker build -t meu_app .
 ~~~
 
-## 7º - Rodar o container criado
+### 7º - Rodar o container criado
 
 ~~~cmd
 // -p - Porta que foi utilizada no arquivo de configuração do app
